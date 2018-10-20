@@ -1,0 +1,2 @@
+
+select DISTINCT CITY from STATION where regexp_like (CITY , '^A|^E|^I|^O|^U') ORDER BY CITY ASC;
